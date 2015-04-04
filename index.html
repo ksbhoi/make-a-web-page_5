@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  ksbhoi</title>
+
+    <link rel="stylesheet" href="css/style.css">
+	<!-- Prapared using Notepad++ -->
+</head>
+<body>
+	<div class="TOC">
+		<h1>TABLE OF CONTENTS</h1>
+		<ol>
+			<li><a href="#lesson1">Basics Of Web & HTML</a></li>
+			<li><a href="#lesson2">Creating Structured Document With HTML</a></li>
+			<li><a href="#lesson3">Adding CSS Style To HTML Structure</a></li>
+		</ol>
+	</div>
+
+	<h1 id="lesson1"><b>Basics Of Web & HTML</b><br></h1>
+	<div class="Chapter">
+		<div>
+			<p>
+				In this lesson I learned about basics of <em>HTML</em> & what are components required to build HTML page. So below are my notes.
+			</p>
+		</div>
+
+		<div>
+			<p>
+				I will start with example, what parts are invloved when we access certain webpage.It consist of,<br>
+				<b><em>Server</em></b> - Its a computer which host website. Website is made from HTML language. It contains images, notes, audio or video, etc.<br>
+				<b><em>PC</em></b> - Its a computer from where client access website, by using application like IE, Firefox, Chrome.<br>
+				<b><em>HTML</em></b> - Its protocol which talks between client & server, so that webpage could be viewed by client in IE, Firefox.<br>
+				<b><em>Internet</em></b> - Its final and important part of all, it connects two machine like PC & Server. So that they could talk to each other.<br>
+			</p>
+		</div>	
+
+		<div>
+			<h3>BASICS OF HTML<br></h3>
+			<div>
+				Webpage is constructed using HTML - Hyper Text Markup Language. Contents of webpage such as docuement, image, audio or video
+				is accessed through HTML. Fundamental building blocks are as follow,<br><br>
+
+				<b>TAGS</b> - Tags are used to format contents in HTML page. Format of specifying any tag is <code>&lt;NAME&gt; CONTENT &lt;/NAME&gt;</code> where Name is Tag name, Content is any normal content or it could other tag as well. First Name is called opening tag and other one is closing tag.<br>
+				<!-- Use of HTML Entities to display reserved HTML charactes. More info http://www.w3schools.com/html/html_entities.asp -->
+				<b>ELEMENTS</b>- It is composed of opening tag, content & closing tag. There are two types of it Inline & Block.<br><br>
+			</div>
+
+			<div>
+				Lets discuss some of tags -<br>
+				<ol>
+					<li>To make any content bold, we use b tag. For Example <b>UDACITY NANODEGREE.</b><br></li>
+					<li>To make italics, we use em tag. For Example <em>UDACITY NANODEGREE.</em><br></li>
+					<li>To give line break, we use br tag. This tag is called void tag because there is no closing tag means no contents.<br></li>
+					<li>To insert link for other webpage, we use anchor tag. For Example <a href="https://www.udacity.com/course/nd000">UDACITY NANODEGREE.</a><br></li>
+				</ol>
+				<!-- Use of special HTML element li to create list -->
+			</div>
+		</div>
+	</div>
+
+	<h1 id="lesson2">Creating Structured Document With HTML</h1>
+	<div class="Chapter">
+
+		<div>
+			In this section, discussing about structure of HTML document and how web browser interprets that structure. Then how to enhance HTML webpage using other languages like CSS, etc.
+		</div>
+
+		<div>
+			<p>
+				To better understand, take an analogy of house as a webpage. In it HTML will be like walls, kitchens, it will tell where is your kitchen, living room etc. Then CSS will add style to like coloring your walls, and other items which makes home look good.
+			</p>
+			<p>
+				For better and quicker understanding of HTML page structure; let's consider popular website <a href="http://www.wikipedia.org">Wikipedia</a>. When opened in web browser <em>Google Chrome</em>, using Developer tool will show structure of webpage. Its called <b><em>DOM</em></b> abbrevation for Document object model. It's also called <b>"Tree Structure"</b>, representation in hierarchical structure of web page.
+			</p>
+			<p>
+				We write HTML code by using its syntax and rules. The basic word in HTML code is tag, when we write code we specify opening tag & closing tag. Browser creates elements based upon tag to form a tree structure, using DOM. DOM is a standard way of representing and interacting with elements in HTML. DOM tells browser how the structure of code is and browser display the content accordring to it.
+			</p>
+		</div>	
+
+		<h3><span>BOX!!</span></h3>
+
+		<div>
+			<p>
+				From above observation of <b>Wikipedia</b>, webpage structure made of boxes, big boxes, small boxes within it. Thats how HTML page is constructed. Advantage of doing it that way, we can formal particular section as per our need, move it to other location easily without working on each element in that box. It saves lot of time. This is done by using HTML tag <b>DIV</b>.<br>
+				There are several advantages of these boxes. When you have design along with some text material and you have fit that into webpage; boxes helps lot. Cut down page into separate big boxes, then further cutting down those individual boxes into another small boxes as per requirement, for example if have images in it.
+			</p>
+		</div>
+	</div>	
+
+	<h1 id="lesson3">Adding CSS Style To HTML Structure</h1>
+	<div class="Chapter">
+
+		<p>
+			CSS stands for Cascading Style Sheet. Using CSS we can give whole new different style to webpage, which makes webpage looks fancy. Using CSS we can uncountable things, more comman like changing background color, changing fonts style, formatting contents different ways. There are different ways you can apply CSS styles to HTML 1> By calling 'style' element inside 'head' element 2> By adding link to HTML page for separate css file 3> Write your style inline with your HTML.
+		</p>
+		<h3>INHERITANCE & AVOIDING REPITION</h3>
+		<p>
+			The major advantage of CSS is avoiding repition of code. CSS styles can be applied to specific HTML elements like 'p', 'body', etc, as a result style will be applied to element wherewhere its referenced in HTML page. CSS styles can also be applied to class which are arguments of 'div' tag. By applying this method in CSS, repition is avaoided, as you write code only once for specific element, class selector and style gets applied to wherewhere they are called. Inheritance is key a key feature in CSS, it relies on ancestor-descendant relationship to operate. Inheritance is the mechanism by which properties are applied not only to specified elements but also to it's descendants.
+		</p>
+	</div>
+
+</body>
+</html>
