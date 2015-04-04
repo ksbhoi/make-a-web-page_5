@@ -1,0 +1,31 @@
+/* CSS style sheet for Udacity Project 1*/
+body{
+	font-family:cursive;
+	background-color: #f0e68c;
+}
+h1{
+	text-align: center;
+	color: #dc143c;
+	padding: 5px 5px;
+	border-radius: 25px;
+	background-color: #b8860b;
+}
+p{
+	text-indent: 5em;
+}
+h3{
+	font-family: fantasy;
+	font-style: oblique;
+	color: #4b0082;
+	text-indent: 2.5em;
+}
+.Chapter{
+	background-color: #ffa07a;
+	padding: 10px 10px;
+	margin: 10px auto;
+	border-radius: 10px;
+	font-weight: lighter;
+}
+.TOC{
+	font-size: 1.2em;
+}
